@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".About">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar"
+
+            android:id="@+id/tool_bar"/>
+
+        <!-- Let's add fragment -->
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:padding="20sp"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Our Vision"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="Promoting &amp; Enhancing knowledge &amp; innovation amongst our students and making them more aware of IT industry for excellence in their career."
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="30dp"
+                        android:text="Our Mission"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="To Become a Leading Association to provide learning opportunities for students through various activities to achieve technical expertise."
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="30sp"
+                        android:textStyle="bold"
+                        android:text="Our Inspiration"
+                        android:textSize="30sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="ACM, ACM India &amp; WCE Sangli are our true inspiration. Their active efforts towards science &amp; technology motivates us to keep doing our work."
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="30sp"
+                        android:text="Why WCE ACM ?"
+                        android:textStyle="bold"
+                        android:textSize="30sp"
+                        android:layout_height="wrap_content"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:text="WCE ACM Student Chapter offers a strong platform for the students who wish to make a promising career in the computer science &amp; IT industry. Our chapter offers everyday learning opportunities that allows the members to learn &amp; grow in their areas of interest. Our cultural diversity means you’ll always have something to learn from those around you.
+
+Our chapter believes in sharing the knowledge and contribute towards the betterment of the society through innovative ideas. We prioritize the technical, personal &amp; intellectual development of our members. We’re always growing and we believe so should you."
+                        android:textSize="18sp"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20sp"
+                        android:text="Contact Us"
+                        android:textColor="@color/white"
+                        android:paddingLeft="5dp"
+                        android:background="@color/black"
+                        android:layout_height="wrap_content"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:text="Phone No : +918989898989"
+                            android:gravity="center_horizontal"
+                            android:textColor="@color/white"
+                            android:background="@color/black"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:gravity="center_horizontal"
+                            android:text="Email: info@wce.acm.org"
+                            android:textColor="@color/white"
+                            android:paddingBottom="5dp"
+                            android:background="@color/black"
+                            android:layout_height="wrap_content"/>
+
+
+
+                </LinearLayout>
+
+
+
+            </ScrollView>
+        </FrameLayout>
+
+
+    </LinearLayout>
+    <!--
+         Navigation view to show the menu items
+    -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/nav_items" />
+</androidx.drawerlayout.widget.DrawerLayout>

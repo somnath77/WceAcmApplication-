@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    app:cardCornerRadius="4dp"
+
+    android:layout_margin="7dp"
+
+
+    android:elevation="90dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:padding="10dp"
+
+
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+
+
+            android:src="@drawable/people"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/showImage"
+            >
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="25dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="12dp"
+                android:hint="somnath Surwase"
+                android:textSize="20dp"
+                android:textColor="#FFFF"
+                android:gravity="center_horizontal"
+
+                android:id="@+id/nameOfMember"
+                android:layout_height="40dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/postOfMember"
+                android:layout_marginTop="10dp"
+                android:textColor="#FFFF"
+                android:textSize="20dp"
+                android:gravity="center_horizontal"
+                android:hint="Asst. Web Developer"
+                android:layout_height="40dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

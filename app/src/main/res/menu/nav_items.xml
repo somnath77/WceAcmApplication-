@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <!--
+                Add menu items here
+                Menu items with icon and Title
+        -->
+        <item
+            android:id="@+id/first"
+            android:icon="@drawable/people"
+            android:title="Main Board" />
+        <item
+            android:id="@+id/second"
+            android:icon="@drawable/people"
+            android:title="Assistant Board" />
+        <item
+            android:id="@+id/third"
+            android:icon="@drawable/people"
+            android:title="Members Board" />
+
+    </group>
+</menu>

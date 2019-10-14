@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConnectWithUS">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/tool_bar"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="60dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="208dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/instagram"
+
+            />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:src="@drawable/facebook"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="176dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="214dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/twitter"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100sp"
+            android:id="@+id/img4"
+            android:src="@drawable/linkedin"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="296dp"
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="186dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/youtube"
+
+            />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="216dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/acm_icon"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="416dp"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+
+        >
+
+        <ImageView
+            android:id="@+id/img7"
+            android:layout_width="186dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/wcehackathon"
+
+            />
+
+        <ImageView
+            android:id="@+id/img8"
+            android:layout_width="216dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/wce"
+
+            />
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

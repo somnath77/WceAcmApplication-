@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "401365891545",
+    "firebase_url": "https://firstacm-90953.firebaseio.com",
+    "project_id": "firstacm-90953",
+    "storage_bucket": "firstacm-90953.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:401365891545:android:19647bb8e19e97716fc1c8",
+        "android_client_info": {
+          "package_name": "com.example.firstacm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "401365891545-mf0ehp0b7lpsik2isg5a0n9htqt9j4l9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firstacm",
+            "certificate_hash": "0b64139578c46262b8af4899b178a33a3397c210"
+          }
+        },
+        {
+          "client_id": "401365891545-4t8nsrmbr1nptu59ne32tse7sgk3cun6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJdNOG4m88u-Ss74JG2SlDdCKcVf26eqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "401365891545-4t8nsrmbr1nptu59ne32tse7sgk3cun6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
